@@ -1,3 +1,6 @@
+### Edited for reproducibility test on PPMI dataset with standard or re-trained model.
+
+
 # CT_BET: Robust Brain Extraction Tool for CT Head Images
 To be able to run this you will need to have a GPU card available and have tensorflow and keras libraries installed in python.
 
