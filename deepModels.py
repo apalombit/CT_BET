@@ -11,7 +11,9 @@ import warnings
 
 import os
 import numpy as np
-from keras import backend as K
+#from tensorflow.keras import backend as K
+from tensorflow.python.keras import backend as K
+#from keras import backend as K
 from keras.models import Model
 from keras import layers
 from keras.layers import (Input, concatenate, Conv2D, Lambda, 

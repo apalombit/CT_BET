@@ -113,9 +113,11 @@ if __name__ == '__main__':
         unetSS.pred_folder=pred_folder
         unetSS.save_folder = os.path.join(code_dir,resultsFolder,oLabel,pred_folder)
         unetSS.weight_folder=os.path.join(code_dir,'weights_folder')
+
         weightFile=(os.path.join(unetSS.weight_folder,'unet_CT_SS_20171114_170726.h5'))
         unetSS.Predict(weightFile)
         #to run unet3D model, use Predict3D
+        #weightFile=(os.path.join(unetSS.weight_folder,'unet_CT_SS_3D_201843_163521.h5'))
         #unetSS.Predict3D(weightFile)
     elif train:
         unetSS.train()

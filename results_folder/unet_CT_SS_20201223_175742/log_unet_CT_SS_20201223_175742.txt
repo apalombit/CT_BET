@@ -1,0 +1,33 @@
+
+------------------------------
+Model parameters:
+  root folder: /Users/ale/Desktop/CT_BET
+  code folder: 
+  image_folder: image_data
+  mask folder: mask_data
+  save folder: /Users/ale/Desktop/CT_BET/results_folder/unet_CT_SS_20201223_175742
+  training folder: 
+  prediction folder: predictions
+  log file name: log_unet_CT_SS_20201223_175742.txt
+  testing mode: False
+  testLabelFlag: False
+  testMetricFlag: False
+  dataAugmentation: False
+  savePredMask: True
+  augmentation fold: 
+  number of epochs: 100
+  output label: unet_CT_SS_20201223_175742
+  checkWeightFileName: unet_CT_SS_20201223_175742.h5
+  data augmentation parameters:
+
+  dtype: float32
+  dtypeL: uint8
+  wType: slice
+  input shape: [512, 512, 1]
+  classifier: softmax
+  batch size: 1
+  model: unet
+
+------------------------------
+
+------------------------------
